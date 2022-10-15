@@ -22,7 +22,7 @@ sudo chmod 777 EC2Key.pem
 
 Connecting to our instance on Ubuntu. If you encounter question like "Are you sure you want to continue connecting", Write: yes
 ```
-sudo ssh -i YOUR_KEY_NAME.pem ubuntu@YOUR_PUBLIC_IPV4_ADDRESS_OFF_INTANCE
+sudo ssh -i YOUR_KEY_NAME.pem ubuntu@YOUR_PUBLIC_IPV4_ADDRESS_OF_INTANCE
 ```
 ```
 sudo ssh -i EC2Key.pem ubuntu@54.205.43.185
